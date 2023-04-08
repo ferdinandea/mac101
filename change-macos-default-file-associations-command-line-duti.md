@@ -5,7 +5,7 @@ While macOS makes it convenient to set your default file opener on a one-off bas
 
 duti is a command-line utility that makes it possible to set default applications for specific document types, directly from the shell.
 
-In the following [excerpt from my dotfiles](https://github.com/nficano/dotfiles/blob/master/misc/bootstrap#L156-L180), I use duti to configure Visual Studio Code to be my default “open with” application for various document types.
+In the following I use duti to configure Visual Studio Code to be my default “open with” application for various document types.
 
 ```bash
   duti -s com.microsoft.VSCode .c all
